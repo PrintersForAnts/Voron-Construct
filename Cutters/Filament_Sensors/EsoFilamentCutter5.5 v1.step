@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'model.step',
-/* time_stamp */ '2024-07-09T18:50:20+10:00',
+/* time_stamp */ '2024-07-09T18:53:19+10:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -3614,7 +3614,8 @@ SOLID_ANGLE_UNIT()
 #3347=SHAPE_REPRESENTATION('',(#2010),#3307);
 #3348=SHAPE_REPRESENTATION('',(#2050),#3308);
 #3349=PRODUCT_DEFINITION_CONTEXT('part definition',#3378,'design');
-#3350=PRODUCT_DEFINITION('(Unsaved)','(Unsaved)',#3359,#3349);
+#3350=PRODUCT_DEFINITION('EsoFilamentCutter5.5','EsoFilamentCutter5.5',
+#3359,#3349);
 #3351=PRODUCT_DEFINITION('FilamentSensorCutter5.5',
 'FilamentSensorCutter5.5',#3360,#3349);
 #3352=PRODUCT_DEFINITION('Ball Shaft','Ball Shaft',#3361,#3349);
@@ -3634,7 +3635,8 @@ SOLID_ANGLE_UNIT()
 #3365=PRODUCT_DEFINITION_FORMATION('',$,#3386);
 #3366=PRODUCT_DEFINITION_FORMATION('',$,#3387);
 #3367=PRODUCT_DEFINITION_FORMATION('',$,#3388);
-#3368=PRODUCT_RELATED_PRODUCT_CATEGORY('(Unsaved)','(Unsaved)',(#3380));
+#3368=PRODUCT_RELATED_PRODUCT_CATEGORY('EsoFilamentCutter5.5',
+'EsoFilamentCutter5.5',(#3380));
 #3369=PRODUCT_RELATED_PRODUCT_CATEGORY('FilamentSensorCutter5.5',
 'FilamentSensorCutter5.5',(#3381));
 #3370=PRODUCT_RELATED_PRODUCT_CATEGORY('Ball Shaft','Ball Shaft',(#3382));
@@ -3653,7 +3655,7 @@ SOLID_ANGLE_UNIT()
 #3378=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3379=PRODUCT_CONTEXT('part definition',#3378,'mechanical');
-#3380=PRODUCT('(Unsaved)','(Unsaved)',$,(#3379));
+#3380=PRODUCT('EsoFilamentCutter5.5','EsoFilamentCutter5.5',$,(#3379));
 #3381=PRODUCT('FilamentSensorCutter5.5','FilamentSensorCutter5.5',$,(#3379));
 #3382=PRODUCT('Ball Shaft','Ball Shaft',$,(#3379));
 #3383=PRODUCT('Switch Body','Switch Body',$,(#3379));
