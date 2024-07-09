@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'model.step',
-/* time_stamp */ '2024-07-09T18:45:38+10:00',
+/* time_stamp */ '2024-07-09T18:50:20+10:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -117,14 +117,13 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 '5.5mmBall (1):1',#3355,#3356,'5.5mmBall (1):1');
 #63=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Omron-D2F (1):1','Omron-D2F (1):1',
 'Omron-D2F (1):1',#3355,#3357,'Omron-D2F (1):1');
-#64=NEXT_ASSEMBLY_USAGE_OCCURRENCE('FilamentSensorCutter5.5 (1):1',
-'FilamentSensorCutter5.5 (1):1','FilamentSensorCutter5.5 (1):1',#3350,#3351,
-'FilamentSensorCutter5.5 (1):1');
-#65=NEXT_ASSEMBLY_USAGE_OCCURRENCE('FilamentSensor (1):1',
-'FilamentSensor (1):1','FilamentSensor (1):1',#3350,#3355,
-'FilamentSensor (1):1');
-#66=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Pivot (1):1','Pivot (1):1',
-'Pivot (1):1',#3350,#3358,'Pivot (1):1');
+#64=NEXT_ASSEMBLY_USAGE_OCCURRENCE('FilamentSensorCutter5.5:1',
+'FilamentSensorCutter5.5:1','FilamentSensorCutter5.5:1',#3350,#3351,
+'FilamentSensorCutter5.5:1');
+#65=NEXT_ASSEMBLY_USAGE_OCCURRENCE('FilamentSensor:1',
+'FilamentSensor:1','FilamentSensor:1',#3350,#3355,'FilamentSensor:1');
+#66=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Pivot:1','Pivot:1','Pivot:1',#3350,
+#3358,'Pivot:1');
 #67=FACE_BOUND('',#689,.T.);
 #68=FACE_BOUND('',#690,.T.);
 #69=FACE_BOUND('',#736,.T.);
@@ -3616,17 +3615,16 @@ SOLID_ANGLE_UNIT()
 #3348=SHAPE_REPRESENTATION('',(#2050),#3308);
 #3349=PRODUCT_DEFINITION_CONTEXT('part definition',#3378,'design');
 #3350=PRODUCT_DEFINITION('(Unsaved)','(Unsaved)',#3359,#3349);
-#3351=PRODUCT_DEFINITION('FilamentSensorCutter5.5 (1)',
-'FilamentSensorCutter5.5 (1)',#3360,#3349);
+#3351=PRODUCT_DEFINITION('FilamentSensorCutter5.5',
+'FilamentSensorCutter5.5',#3360,#3349);
 #3352=PRODUCT_DEFINITION('Ball Shaft','Ball Shaft',#3361,#3349);
 #3353=PRODUCT_DEFINITION('Switch Body','Switch Body',#3362,#3349);
 #3354=PRODUCT_DEFINITION('Hex Filament Path','Hex Filament Path',#3363,
 #3349);
-#3355=PRODUCT_DEFINITION('FilamentSensor (1)','FilamentSensor (1)',#3364,
-#3349);
+#3355=PRODUCT_DEFINITION('FilamentSensor','FilamentSensor',#3364,#3349);
 #3356=PRODUCT_DEFINITION('5.5mmBall (1)','5.5mmBall (1)',#3365,#3349);
 #3357=PRODUCT_DEFINITION('Omron-D2F (1)','Omron-D2F (1)',#3366,#3349);
-#3358=PRODUCT_DEFINITION('Pivot (1)','Pivot (1)',#3367,#3349);
+#3358=PRODUCT_DEFINITION('Pivot','Pivot',#3367,#3349);
 #3359=PRODUCT_DEFINITION_FORMATION('',$,#3380);
 #3360=PRODUCT_DEFINITION_FORMATION('',$,#3381);
 #3361=PRODUCT_DEFINITION_FORMATION('',$,#3382);
@@ -3637,34 +3635,33 @@ SOLID_ANGLE_UNIT()
 #3366=PRODUCT_DEFINITION_FORMATION('',$,#3387);
 #3367=PRODUCT_DEFINITION_FORMATION('',$,#3388);
 #3368=PRODUCT_RELATED_PRODUCT_CATEGORY('(Unsaved)','(Unsaved)',(#3380));
-#3369=PRODUCT_RELATED_PRODUCT_CATEGORY('FilamentSensorCutter5.5 (1)',
-'FilamentSensorCutter5.5 (1)',(#3381));
+#3369=PRODUCT_RELATED_PRODUCT_CATEGORY('FilamentSensorCutter5.5',
+'FilamentSensorCutter5.5',(#3381));
 #3370=PRODUCT_RELATED_PRODUCT_CATEGORY('Ball Shaft','Ball Shaft',(#3382));
 #3371=PRODUCT_RELATED_PRODUCT_CATEGORY('Switch Body','Switch Body',(#3383));
 #3372=PRODUCT_RELATED_PRODUCT_CATEGORY('Hex Filament Path',
 'Hex Filament Path',(#3384));
-#3373=PRODUCT_RELATED_PRODUCT_CATEGORY('FilamentSensor (1)',
-'FilamentSensor (1)',(#3385));
+#3373=PRODUCT_RELATED_PRODUCT_CATEGORY('FilamentSensor',
+'FilamentSensor',(#3385));
 #3374=PRODUCT_RELATED_PRODUCT_CATEGORY('5.5mmBall (1)','5.5mmBall (1)',
 (#3386));
 #3375=PRODUCT_RELATED_PRODUCT_CATEGORY('Omron-D2F (1)','Omron-D2F (1)',
 (#3387));
-#3376=PRODUCT_RELATED_PRODUCT_CATEGORY('Pivot (1)','Pivot (1)',(#3388));
+#3376=PRODUCT_RELATED_PRODUCT_CATEGORY('Pivot','Pivot',(#3388));
 #3377=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#3378);
 #3378=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3379=PRODUCT_CONTEXT('part definition',#3378,'mechanical');
 #3380=PRODUCT('(Unsaved)','(Unsaved)',$,(#3379));
-#3381=PRODUCT('FilamentSensorCutter5.5 (1)',
-'FilamentSensorCutter5.5 (1)',$,(#3379));
+#3381=PRODUCT('FilamentSensorCutter5.5','FilamentSensorCutter5.5',$,(#3379));
 #3382=PRODUCT('Ball Shaft','Ball Shaft',$,(#3379));
 #3383=PRODUCT('Switch Body','Switch Body',$,(#3379));
 #3384=PRODUCT('Hex Filament Path','Hex Filament Path',$,(#3379));
-#3385=PRODUCT('FilamentSensor (1)','FilamentSensor (1)',$,(#3379));
+#3385=PRODUCT('FilamentSensor','FilamentSensor',$,(#3379));
 #3386=PRODUCT('5.5mmBall (1)','5.5mmBall (1)',$,(#3379));
 #3387=PRODUCT('Omron-D2F (1)','Omron-D2F (1)',$,(#3379));
-#3388=PRODUCT('Pivot (1)','Pivot (1)',$,(#3379));
+#3388=PRODUCT('Pivot','Pivot',$,(#3379));
 #3389=PRESENTATION_STYLE_ASSIGNMENT((#3396));
 #3390=PRESENTATION_STYLE_ASSIGNMENT((#3397));
 #3391=PRESENTATION_STYLE_ASSIGNMENT((#3398));
