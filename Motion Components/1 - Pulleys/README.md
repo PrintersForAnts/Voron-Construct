@@ -1,0 +1,1 @@
+Looking for parametric Pulleys instead (Only for Fusion360)? [Click Here!](https://github.com/PrintersForAnts/Voron-Construct/tree/main/Parametric/Gates%2020T%20GT2%20Pulleys)
